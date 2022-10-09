@@ -8,8 +8,9 @@
         mc:Ignorable="d"
         Title="YouTube Viewers" 
         Height="450" 
-        Width="800">
-    <Grid>
+        Width="800"
+        FontSize="14">
+    <Grid Margin="25">
         <views:YouTubeViewersView/>
 
     </Grid>

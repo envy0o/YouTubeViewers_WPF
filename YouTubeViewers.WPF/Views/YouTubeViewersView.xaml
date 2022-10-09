@@ -21,12 +21,17 @@
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Column="0" Text="YouTube Viewers"/>
+            <TextBlock Grid.Column="0" 
+                       FontSize="32"
+                       Text="YouTube Viewers"/>
 
-            <Button Grid.Column="1" Content="Add"/>
+            <Button Grid.Column="1"
+                    FontSize="16"
+                    Content="Add"/>
         </Grid>
 
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1"
+              Margin="0 20 0 0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="2*"/>
@@ -35,7 +40,7 @@
             <components:YouTubeViewersListing Grid.Column="0"/>
 
             <components:YouTubeViewersDetails Grid.Column="1"
-                                              Margin="10 0 0 0"/>
+                                              Margin="20 0 0 0"/>
 
 
         </Grid>
